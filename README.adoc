@@ -1,0 +1,7 @@
+== Defer in C
+
+This header file presents a practical way to use the implementation of a `defer` keyword as shown in the https://open-std.org/JTC1/SC22/WG14/www/docs/n3434.htm[WG14 document n3434 "`Even simpler defer for direct integration`"]. Accompanying the implementation are examples showcasing the function and possible use cases of the keyword.
+
+"`Even simpler defer for direct integration`" by Jens Gustedt, INRIA and ICube, France is published under the https://creativecommons.org/licenses/by/4.0[CC BY] license.
+
+The `defer` keyword deferrs the execution of a code block to the point at which the current scope is exited from. This is equivalent to the `defer` keywords in other languages such as Go, Swift, Odin, Zig, and scope guards in D.
